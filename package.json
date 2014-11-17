@@ -1,0 +1,16 @@
+{
+  "name": "attreactive-validator",
+  "version": "0.1.0",
+  "scripts": {
+    "test": "jest -i"
+  },
+  "devDependencies": {
+    "jest-cli": "~0.1"
+  },
+  "jest": {
+    "rootDir": "lib",
+    "testPathIgnorePatterns": [
+      "/__tests__/[^/]*/.+"
+    ]
+  }
+}
